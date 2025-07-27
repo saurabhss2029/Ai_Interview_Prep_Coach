@@ -96,17 +96,4 @@ Edit
 npm start
 Open http://localhost:1234 in your browser.
 
-📁 File Structure
-bash
-Copy
-Edit
-/project-root
-├── App.js           # Main app logic & state
-├── Dashboard.js     # Analytics dashboard
-├── History.js       # Chat history summaries
-├── Settings.js      # Font size & theme controls
-├── About.js         # About the project
-├── index.html       # Root HTML entry
-├── .env             # API key (not tracked)
-👨‍💻 Author
 Built with ❤️ by Saurabh Kumar Kashinwar
