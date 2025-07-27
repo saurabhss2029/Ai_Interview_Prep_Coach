@@ -1,0 +1,35 @@
+{
+  "name": "ai-interview-coach",
+  "version": "1.0.0",
+  "description": "🤖 AI Interview Coach – a web-based app leveraging Google's Gemini API to provide real-time feedback, interview practice, and resume analysis through a modern React + Tailwind interface.",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "AI",
+    "interview",
+    "coach",
+    "react",
+    "tailwindcss",
+    "gemini",
+    "resume-analysis"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not < 0.2%"
+  ]
+}
