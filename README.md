@@ -1,112 +1,112 @@
-AI Interview Coach 🤖
-Welcome to the AI Interview Coach, a smart, web-based application designed to help you ace your job interviews. This tool leverages the power of Google's Gemini API to provide real-time feedback, practice sessions, and resume analysis, all within a sleek, modern interface.
+# 🤖 AI Interview Coach
 
-🚀 Key Features
-🧠 Real-time AI Coaching: Engage in a dynamic conversation with an AI coach that provides interview questions and feedback.
+**AI Interview Coach** is a smart, web-based application designed to help you ace job interviews. It leverages the power of **Google's Gemini API** to provide:
 
-📄 PDF Resume Analysis: Upload your resume (PDF) and ask for detailed suggestions, keyword optimization, and formatting advice.
+- Real-time feedback  
+- Practice sessions  
+- Resume analysis  
+- A sleek and responsive UI  
 
-🎨 Dual Theme Interface: Seamlessly switch between a light and dark theme to suit your preference.
+---
 
-📊 Progress Dashboard: Get a quick overview of your preparation with dummy analytics on questions asked and topics covered.
+## 🚀 Features
 
-📜 Chat History Summary: The "History" tab provides concise summaries of your past conversations for quick review.
+- 🧠 **Real-time AI Coaching**: Chat with an AI coach that asks interview questions and gives smart feedback.
+- 📄 **Resume (PDF) Analysis**: Upload your resume and receive improvement tips, keyword suggestions, and formatting advice.
+- 🌗 **Dual Theme UI**: Toggle between light and dark mode based on preference.
+- 📊 **Progress Dashboard**: View dummy analytics like questions answered and topics covered.
+- 🧾 **Chat History Summary**: Review summarized past conversations in the "History" tab.
+- 🔠 **Accessibility Settings**: Increase/decrease font size for better readability.
+- ⛔ **Stop Generation**: Instantly stop AI responses mid-generation.
+- ✨ **Modern UI**: Clean, fast, and responsive interface using React + Tailwind CSS.
 
-⚙️ Accessibility Controls: Adjust the font size for comfortable reading in the settings panel.
+---
 
-🚫 Stop Generation: Interrupt the AI's response at any time with a convenient stop button.
+## 🛠️ Tech Stack
 
-✨ Modern UI: A clean, responsive, and intuitive user interface built with React and Tailwind CSS.
+- **React.js** – Component-based UI  
+- **Tailwind CSS** – Utility-first styling  
+- **Google Gemini API** – AI chat and analysis  
+- **Parcel** – Bundler for fast dev setup  
+- **Mozilla pdf.js** – Extracts text from PDFs on the client side  
 
-🛠️ Tech Stack
-This project is built with a modern, front-end tech stack:
+---
 
-React.js: For building the dynamic and component-based user interface.
+## ⚙️ Setup and Installation
 
-Tailwind CSS: For utility-first styling and creating a responsive design.
+### 🔧 Prerequisites
 
-Google Gemini API: Powers the AI chat and analysis capabilities.
+- Node.js and npm installed  
+- A valid **Google Gemini API Key**
 
-Parcel: Used as a web application bundler for a fast, zero-config development experience.
+### 📁 Project Files
 
-Mozilla's pdf.js: For client-side text extraction from PDF documents.
-
-⚙️ Setup and Installation
-To run this project on your local machine, follow these simple steps.
-
-Prerequisites
-Node.js and npm (or yarn) installed on your system.
-
-A valid Google Gemini API Key.
-
-1. Create Project Files
-Create a new folder for your project and place the following files inside it:
-
+Ensure your project has these files:
 index.html
-
 App.js
-
-History.js
-
 Dashboard.js
-
+History.js
 Settings.js
-
 About.js
 
-2. Initialize the Project
-Open your terminal in the project folder and run the following command to create a package.json file:
+### ✅ Installation Steps
 
-npm init -y
+1. **Initialize the Project**
+   ```bash
+npm init
+Install Dependencies
 
-3. Install Dependencies
-Install React, ReactDOM, and Parcel:
-
+bash
+Copy
+Edit
 npm install react react-dom parcel
 
-4. Configure package.json
-Open your package.json file and add the following start and build scripts:
+Configure package.json
 
+json
+Copy
+Edit
 "scripts": {
   "start": "parcel src/index.html",
   "build": "parcel src/build index.html",
   "test": "echo \"Error: no test specified\" && exit 1"
-},
+}
+Set Up Environment Variable
 
-5. Create .env for API Key
-Create a new file in your project's root directory named .env. Inside this file, add your API key like this (Parcel requires the PARCEL_ prefix):
+Create a .env file in the root directory:
 
+ini
+Copy
+Edit
 PARCEL_GEMINI_API_KEY=YOUR_API_KEY_HERE
+Add .gitignore
 
-6. Create .gitignore
-Create another file named .gitignore in the root directory and add the following lines to it. This is a crucial step to ensure your secret key is not uploaded to GitHub.
-
+bash
+Copy
+Edit
 .env
 node_modules/
 dist/
 .parcel-cache/
+Run the App
 
-7. Run the Application
-You're all set! Start the development server by running:
-
+bash
+Copy
+Edit
 npm start
-
-Parcel will bundle the application and provide you with a local server address (usually http://localhost:1234). Open this link in your browser to see the app live. For a production build, run npm run build.
+Open http://localhost:1234 in your browser.
 
 📁 File Structure
-The project is organized into modular components for better maintainability:
-
+bash
+Copy
+Edit
 /project-root
-├── 📄 App.js           # Main application component, state management, and logic
-├── 📄 Dashboard.js      # Component for the analytics dashboard page
-├── 📄 History.js        # Component for the chat history summary page
-├── 📄 Settings.js       # Component for the user settings page
-├── 📄 About.js          # Component for the about page
-├── 📄 index.html        # The entry point that loads the React app
-├── 📄 .env              # Stores the secret API key (Do
- 
-© Creator
-Built with passion by Tushar Gupta.
-
-© 2024 All Rights Reserved.
-
+├── App.js           # Main app logic & state
+├── Dashboard.js     # Analytics dashboard
+├── History.js       # Chat history summaries
+├── Settings.js      # Font size & theme controls
+├── About.js         # About the project
+├── index.html       # Root HTML entry
+├── .env             # API key (not tracked)
+👨‍💻 Author
+Built with ❤️ by Saurabh Kumar Kashinwar
